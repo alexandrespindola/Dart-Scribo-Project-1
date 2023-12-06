@@ -34,9 +34,9 @@ String resultSum() {
       
     return '\nRESULTADO >> A soma dos números anteriores a $number divisíveis por 3 e por 5 é: $sum';
     } else {
-      return 'Entrada inválida. Certifique-se de que o número inteiro digitado seja positivo e diferente de zero.';
+      return '\nEntrada inválida. Certifique-se de que o número inteiro digitado seja positivo e diferente de zero.';
     }
   } catch (e) {
-    return 'Entrada inválida. Certifique-se de inserir um número inteiro positivo.';
+    return '\nEntrada inválida. Certifique-se de inserir um número inteiro positivo.';
   }
 }
