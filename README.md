@@ -1,6 +1,8 @@
 # Dart Scribo Project 1
  
-Para acessar e rodar o script em Dart:
+Para rodar o script em Dart:
+1. Acesse: https://replit.com/@alexandrespindo/Dart-Scribo-Project-1?v=1
+2. Clique em "Run".
 
-1. Acesse meu repositório no Replit: https://replit.com/@alexandrespindo/Dart-Script-Scribo-Project-1
-2. Clique em Run.
+Para visualizar o código:
+1. Clique no botão "Show code" abaixo do "Run".
