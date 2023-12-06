@@ -8,7 +8,7 @@ void main(List<String> arguments) {
 
 // Função que recebe um número inteiro positivo e retorna o somatório de todos os valores inteiros divisíveis por 3 ou 5 que sejam inferiores ao número passado
 String resultSum() {
-  print('Digite um número: ');
+  print('Digite um número: \n');
   String? input = stdin.readLineSync()!;
 
   // Testa se o valor digitado é um número inteiro e positivo
@@ -16,12 +16,13 @@ String resultSum() {
     // Converte a string para um número inteiro (int)
     int number = int.parse(input);
     if (number > 0) {
-      print('Você digitou o número: $number');
       int sum = 0;
 
       // Itera todos os números inferiores ao número digitado
       // Verifica se é divisível por 3 ou por 5
       // Imprime os valores lado a lado (sem quebra de linha)
+      
+      print('\nValores inteiros divisíveis por 3 ou 5 que inferiores a $number:');
       for (int i = 0; i < number; i++) {
         if (i % 3 == 0 || i % 5 == 0) {
           sum += i;
@@ -31,7 +32,7 @@ String resultSum() {
 
       print('NÚMERO DIGITADO ($number)');
       
-    return 'RESULTADO >> A soma dos números anteriores divisíveis por 3 e por 5 é: $sum';
+    return '\nRESULTADO >> A soma dos números anteriores a $number divisíveis por 3 e por 5 é: $sum';
     } else {
       return 'Entrada inválida. Certifique-se de que o número inteiro digitado seja positivo e diferente de zero.';
     }
